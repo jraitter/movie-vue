@@ -22,7 +22,11 @@ export default {
     return {};
   },
   computed: {},
-  methods: {},
+  methods: {
+    setActive() {
+      this.$store.dispatch("setActiveMovie", this.movieData);
+    }
+  },
   components: {}
 };
 </script>

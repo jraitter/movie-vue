@@ -1,9 +1,11 @@
 <template>
   <div class="home container-fluid">
     <div class="row">
-      <div class="col text-center">
+      <div class="col d-flex justify-content-center">
         <h1>Welcome to Movie Viewer</h1>
-        <search-movie />
+        <div>
+          <search-movie />
+        </div>
       </div>
     </div>
     <div class="row">

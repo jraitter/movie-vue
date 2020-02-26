@@ -1,7 +1,7 @@
 <template>
   <div class="movies row">
     <!-- NOTE Props are data passed from parent to child component -->
-    <movie v-for="(movieObj, index) in movies" :key="movieObj.id" :movieData="movieObj" />
+    <movie v-for="(movieObj) in movies" :key="movieObj.id" :movieData="movieObj" />
   </div>
 </template>
 
