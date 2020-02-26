@@ -1,18 +1,16 @@
 <template>
   <div class="home container-fluid">
-    <div class="row">
-      <div class="col d-flex justify-content-center">
-        <h1>Welcome to Movie Viewer</h1>
-        <div>
-          <search-movie />
-        </div>
+    <div class="row text-center">
+      <div class="col">
+        <h1>Welcome to Movie Finder</h1>
+        <search-movie />
       </div>
     </div>
     <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <movies />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <movie-details />
       </div>
     </div>
@@ -35,3 +33,5 @@ export default {
 };
 </script>
 
+<style scoped>
+</style>
